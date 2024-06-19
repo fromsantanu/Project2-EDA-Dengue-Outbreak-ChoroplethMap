@@ -1,5 +1,5 @@
 # Project2-EDA
-> **Brief Description:** - Display the distribution of dengue cases across different states or regions in India. This visualizes the geographic spread and intensity of outbreaks.
+> **Brief Description:** - Display the distribution of dengue cases across different states or regions in India. This visualizes the geographic spread and intensity of outbreaks. This map is known as Choropleth Map,
 
 ![Project Logo](EDACharts.jpg)
 
