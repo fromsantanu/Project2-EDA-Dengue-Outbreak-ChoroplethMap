@@ -47,6 +47,41 @@ The programs are written on jupiter notebook, You may run the program on Google 
 
 ![Program Output](output.png)
 
+**This program creates an interactive choropleth map to visualize the distribution of dengue cases across different states in India. Here are the key conclusions that can be drawn from this program:**
+
+- **Geographical Distribution of Dengue Cases:**
+
+  - The map will show which states have higher or lower numbers of dengue cases, using a color gradient (e.g., shades of yellow to red) to represent the intensity of the cases.
+  
+- **State-Level Insights:**
+
+  - By examining the map, one can easily identify which states are most affected by dengue. For example, states with darker shades of red will have more cases compared to those with lighter shades or white (indicating no data).
+  
+- **Data Completeness:**
+
+  - The program checks for mismatches between the state names in the dengue cases data and the geospatial data, ensuring that the data used for visualization is accurate and complete.
+  - If there are any states in the dengue data not found in the geospatial data, or vice versa, these mismatches are identified, which helps in cleaning and verifying the data.
+  
+- **Visual Clarity:**
+
+  - State borders are added to the map for better visual clarity, making it easier to distinguish between different states and understand the geographical spread.
+  
+- **Interactive Map Features:**
+
+  - The interactive map allows users to zoom in and out and hover over states to see specific data points, providing a more engaging and detailed exploration of the data.
+  
+- **Data Merging and Preparation:**
+
+  - The program demonstrates how to merge geospatial data with epidemiological data, ensuring that each state's dengue case data is correctly aligned with its geographical representation.
+
+- **Export and Display:**
+
+  - The map is saved as an HTML file, which can be shared and viewed outside of the notebook environment.
+  - The map is also displayed within the notebook, allowing for immediate inspection and interaction.
+
+By using this map, public health officials, researchers, and policymakers can gain valuable insights into the regions most affected by dengue, helping them to allocate resources, plan interventions, and monitor the effectiveness of public health measures.
+
+
 ## Contribution
 
 The programs are written by Santanu Karmakar
